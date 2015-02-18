@@ -1,0 +1,9 @@
+@font-face {
+    font-family: UmiSansHeavy;
+    src: url("/wp-content/themes/andreypredelin/fonts/uni_sans_heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: UmiSansThin;
+    src: url("/wp-content/themes/andreypredelin/fonts/uni_sans_thin.otf") format("opentype");
+}
