@@ -28,7 +28,7 @@ function gen_view_module_title($title_name){
 }
 
 function gen_view_circle($title,$text,$link = false,$icon = false,$bg_src = false,$hover = true){
-    $id = md5($bg_src);
+    $id = md5($bg_src.$title.$text);
     $icons_html = "";
     if($icon){
         $icons_html = "<div>".$icon."</div>";
@@ -64,15 +64,16 @@ function gen_view_circle($title,$text,$link = false,$icon = false,$bg_src = fals
     return $circle;
 }
 
-function gen_view_blog_list_item($item_html,$inline = true){
+function gen_view_blog_list_item($item_html,$inline = true,$cols=4){
     $class ='';
     if($inline){
-        $class= 'col-xs-4';
+        $class= 'col-xs-'.$cols;
     }
     return '<div class="'.$class.' acenter item">'
 		.$item_html.
 	'</div>';
 }
+
 
 function gen_view_gallery_item($img_src,$alt,$link){
 	 echo '<div class="col-xs-3 np acenter item">
@@ -106,10 +107,30 @@ function gen_view_instafead(){
 function get_po(WP_Post &$post){
     return $post;
 }
+
 function get_the_post_thumbnail_src($img)
 {
     return (preg_match('~\bsrc="([^"]++)"~', $img, $matches)) ? $matches[1] : '';
 }
+
+function prossed_posts($posts){
+    $model = array();
+
+    if ($posts) {
+        foreach ($posts as $post) {
+            setup_postdata($post);
+            $post = get_po($post);
+            $post->link = get_permalink($post->ID);
+            $post->title = get_the_title();
+            $post->preview_img = get_the_post_thumbnail($post->ID, array(32, 32));
+            $post->full_img = get_the_post_thumbnail($post->ID, array(500, 500));
+            $post->full_img_src = get_the_post_thumbnail_src($post->full_img);
+            array_push($model,$post);
+        }
+    }
+    return $model;
+}
+
 function get_model_category($category,$sort = 'date',$limit = 3)
 {
     $posts = get_posts("category=$category&orderby=$sort&numberposts=$limit");
@@ -140,6 +161,35 @@ function gen_view_services(){
     echo '</div>';
 
 }
+
+function gen_view_circle_posts($posts,$inline = true){
+    echo '<div class="row circles">';
+    foreach($posts as $post){
+        $post = get_po($post);
+        echo gen_view_blog_list_item(gen_view_circle($post->post_title,$post->post_content,$post->link,false,$post->full_img_src,false),$inline);
+    }
+    echo '</div>';
+
+}
+function gen_view_circle_review($posts,$inline = true){
+    echo '<div class="row circles np">';
+    foreach($posts as $post){
+        $post = get_po($post);
+        echo '<div class="col-xs-6 np">';
+            echo '<div class="row circles review">';
+                echo '<div class="col-xs-6">';
+                 echo gen_view_blog_list_item(gen_view_circle("","",$post->link,false,$post->full_img_src,false),$inline,6);
+                echo '</div>';
+                echo '<div class="col-xs-6">';
+                echo '<div class="g_t post_content title">'.$post->post_title.'</div>'.'<div class="g_t post_content">'.substr( strip_tags($post->post_content), 0, 300).'</div>';
+                echo '</div>';
+            echo '</div>';
+        echo '</div>';
+    }
+    echo '</div>';
+
+}
+
 function gen_view_blog($inline = true){
     echo '<div class="row">';
     $posts = get_model_category(4);

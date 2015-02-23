@@ -37,7 +37,7 @@
         <?php } ?>
             <div class="row bg_color"  id="main-menu">
                 <div class="col-xs-5 acenter">
-                    <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Анжрей Пределин" class="logo">
+                    <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Анжрей Пределин" class="logo"></a>
                 </div>
                 <div class="col-xs-7">
                     <nav>
