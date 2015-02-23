@@ -1,8 +1,11 @@
-function mute_head_video(){
+function mute_head_video(btn){
 	var muted = true;
 	if($("video").prop('muted')){
 		muted = false;
-	}
+        $(btn).html("ЗВУК ВЫКЛ");
+	}else{
+        $(btn).html("ЗВУК ВКЛ");
+    }
 	$("video").prop('muted', muted); 
 }
 
@@ -35,6 +38,7 @@ $(document).ready(function() {
     });
     feed.run();
 
+    $("#main-menu").sticky({topSpacing:0});
 });
 
 

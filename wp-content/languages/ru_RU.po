@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 4.1\n"
-"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2014-12-16 14:11:26+00:00\n"
-"PO-Revision-Date: 2014-12-18 16:56+0300\n"
+"Project-Id-Version: WordPress 4.1.1\n"
+"Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots\n"
+"POT-Creation-Date: 2015-02-19 00:12:39+00:00\n"
+"PO-Revision-Date: 2015-02-19 06:39+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_c;_x;__ngettext_noop:1,2;__ngettext:1,2\n"
 "X-Poedit-Basepath: S:\\home\\wordpress\\trunk\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-SearchPath-0: S:\\home\\wordpress\\trunk\n"
 
 #: wp-activate.php:73
@@ -404,79 +404,6 @@ msgstr "Не удалось открыть дескриптор для fopen() �
 msgid "Failed to write request to temporary file."
 msgstr "Не удалось записать запрос во временный файл."
 
-#: wp-includes/class-pop3.php:82
-msgid "No server specified"
-msgstr "Не указан сервер"
-
-#: wp-includes/class-pop3.php:90 wp-includes/class-pop3.php:102
-#: wp-includes/class-pop3.php:123 wp-includes/class-pop3.php:246
-#: wp-includes/class-pop3.php:300 wp-includes/class-pop3.php:311
-#: wp-includes/class-pop3.php:359 wp-includes/class-pop3.php:393
-#: wp-includes/class-pop3.php:426 wp-includes/class-pop3.php:525
-#: wp-includes/class-pop3.php:548
-msgid "Error "
-msgstr "Ошибка"
-
-#: wp-includes/class-pop3.php:115
-msgid "no login ID submitted"
-msgstr "не указан логин"
-
-#: wp-includes/class-pop3.php:118 wp-includes/class-pop3.php:138
-msgid "connection not established"
-msgstr "соединение не установлено"
-
-#: wp-includes/class-pop3.php:135 wp-includes/class-pop3.php:171
-msgid "No password submitted"
-msgstr "Не указан пароль"
-
-#: wp-includes/class-pop3.php:143
-msgid "Authentication failed"
-msgstr "Аутентификация не удалась"
-
-#: wp-includes/class-pop3.php:162 wp-includes/class-pop3.php:205
-#: wp-includes/class-pop3.php:230 wp-includes/class-pop3.php:272
-#: wp-includes/class-pop3.php:346 wp-includes/class-pop3.php:386
-#: wp-includes/class-pop3.php:416 wp-includes/class-pop3.php:450
-#: wp-includes/class-pop3.php:513 wp-includes/class-pop3.php:578
-msgid "No connection to server"
-msgstr "Нет соединения с сервером"
-
-#: wp-includes/class-pop3.php:168
-msgid "No login ID submitted"
-msgstr "Не указан логин"
-
-#: wp-includes/class-pop3.php:176
-msgid "No server banner"
-msgstr "Нет заголовка сервера"
-
-#: wp-includes/class-pop3.php:176 wp-includes/class-pop3.php:186
-msgid "abort"
-msgstr "прервать"
-
-#: wp-includes/class-pop3.php:186
-msgid "apop authentication failed"
-msgstr "apop-аутентификация не удалась"
-
-#: wp-includes/class-pop3.php:323
-msgid "Premature end of list"
-msgstr "Преждевременное окончание списка"
-
-#: wp-includes/class-pop3.php:456
-msgid "Empty command string"
-msgstr "Командная строка пуста"
-
-#: wp-includes/class-pop3.php:476
-msgid "connection does not exist"
-msgstr "нет соединения"
-
-#: wp-includes/class-pop3.php:583
-msgid "No msg number submitted"
-msgstr "Не послан номер сообщения"
-
-#: wp-includes/class-pop3.php:589
-msgid "Command failed "
-msgstr "Команда не выполнена"
-
 #: wp-includes/class-wp-admin-bar.php:108
 msgid "The menu ID should not be empty."
 msgstr "ID меню не должен быть пустым."
@@ -490,7 +417,7 @@ msgid "Top navigation toolbar."
 msgstr "Верхняя панель инструментов."
 
 #: wp-includes/class-wp-customize-control.php:475
-#: wp-includes/class-wp-customize-manager.php:1162
+#: wp-includes/class-wp-customize-manager.php:1185
 #: wp-includes/default-widgets.php:1362
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Выбрать &mdash;"
@@ -552,12 +479,12 @@ msgid "Choose Image"
 msgstr "Выбрать изображение"
 
 #: wp-includes/class-wp-customize-control.php:894
-#: wp-includes/class-wp-customize-manager.php:1076
+#: wp-includes/class-wp-customize-manager.php:1099
 msgid "Background Image"
 msgstr "Фоновое изображение"
 
 #: wp-includes/class-wp-customize-control.php:925
-#: wp-includes/class-wp-customize-manager.php:1056
+#: wp-includes/class-wp-customize-manager.php:1079
 msgid "Header Image"
 msgstr "Изображение заголовка"
 
@@ -660,94 +587,94 @@ msgstr "Готово"
 msgid "Cheatin&#8217; uh?"
 msgstr "Хакер, что ли?"
 
-#: wp-includes/class-wp-customize-manager.php:982
+#: wp-includes/class-wp-customize-manager.php:1005
 msgid "Site Title & Tagline"
 msgstr "Название и описание сайта"
 
-#: wp-includes/class-wp-customize-manager.php:993
+#: wp-includes/class-wp-customize-manager.php:1016
 #: wp-includes/class-wp-xmlrpc-server.php:430
 msgid "Site Title"
 msgstr "Название сайта"
 
-#: wp-includes/class-wp-customize-manager.php:1004
+#: wp-includes/class-wp-customize-manager.php:1027
 msgid "Tagline"
 msgstr "Краткое описание"
 
-#: wp-includes/class-wp-customize-manager.php:1011
+#: wp-includes/class-wp-customize-manager.php:1034
 msgid "Colors"
 msgstr "Цвета"
 
-#: wp-includes/class-wp-customize-manager.php:1027
+#: wp-includes/class-wp-customize-manager.php:1050
 msgid "Display Header Text"
 msgstr "Отображать текст заголовка"
 
-#: wp-includes/class-wp-customize-manager.php:1033
+#: wp-includes/class-wp-customize-manager.php:1056
 msgid "Header Text Color"
 msgstr "Цвет текста заголовка"
 
-#: wp-includes/class-wp-customize-manager.php:1048
+#: wp-includes/class-wp-customize-manager.php:1071
 msgid "Background Color"
 msgstr "Цвет фона"
 
-#: wp-includes/class-wp-customize-manager.php:1098
+#: wp-includes/class-wp-customize-manager.php:1121
 msgid "Background Repeat"
 msgstr "Повтор фона"
 
-#: wp-includes/class-wp-customize-manager.php:1102
+#: wp-includes/class-wp-customize-manager.php:1125
 msgid "No Repeat"
 msgstr "Не повторять"
 
-#: wp-includes/class-wp-customize-manager.php:1103
+#: wp-includes/class-wp-customize-manager.php:1126
 msgid "Tile"
 msgstr "Замостить"
 
-#: wp-includes/class-wp-customize-manager.php:1104
+#: wp-includes/class-wp-customize-manager.php:1127
 msgid "Tile Horizontally"
 msgstr "Замостить по горизонтали"
 
-#: wp-includes/class-wp-customize-manager.php:1105
+#: wp-includes/class-wp-customize-manager.php:1128
 msgid "Tile Vertically"
 msgstr "Замостить по вертикали"
 
-#: wp-includes/class-wp-customize-manager.php:1115
+#: wp-includes/class-wp-customize-manager.php:1138
 msgid "Background Position"
 msgstr "Позиция фона"
 
-#: wp-includes/class-wp-customize-manager.php:1119
+#: wp-includes/class-wp-customize-manager.php:1142
 #: wp-includes/class-wp-editor.php:952 wp-includes/media-template.php:600
 #: wp-includes/media-template.php:831 wp-includes/media-template.php:897
 msgid "Left"
 msgstr "Слева"
 
-#: wp-includes/class-wp-customize-manager.php:1120
+#: wp-includes/class-wp-customize-manager.php:1143
 #: wp-includes/class-wp-editor.php:953 wp-includes/media-template.php:603
 #: wp-includes/media-template.php:834 wp-includes/media-template.php:900
 msgid "Center"
 msgstr "По центру"
 
-#: wp-includes/class-wp-customize-manager.php:1121
+#: wp-includes/class-wp-customize-manager.php:1144
 #: wp-includes/class-wp-editor.php:954 wp-includes/media-template.php:606
 #: wp-includes/media-template.php:837 wp-includes/media-template.php:903
 msgid "Right"
 msgstr "Справа"
 
-#: wp-includes/class-wp-customize-manager.php:1131
+#: wp-includes/class-wp-customize-manager.php:1154
 msgid "Background Attachment"
 msgstr "Привязка фона"
 
-#: wp-includes/class-wp-customize-manager.php:1135
+#: wp-includes/class-wp-customize-manager.php:1158
 msgid "Scroll"
 msgstr "Прокручивать"
 
-#: wp-includes/class-wp-customize-manager.php:1136
+#: wp-includes/class-wp-customize-manager.php:1159
 msgid "Fixed"
 msgstr "Зафиксировать"
 
-#: wp-includes/class-wp-customize-manager.php:1155
+#: wp-includes/class-wp-customize-manager.php:1178
 msgid "Navigation"
 msgstr "Навигация"
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural ""
 "Your theme supports %s menus. Select which menu appears in each location."
@@ -763,37 +690,37 @@ msgstr[3] ""
 "Ваша тема поддерживает %s меню. Выберите, какое меню выводить в каждой "
 "области."
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid ""
 "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr ""
 "Содержимое меню можно изменить на экране «Меню» в разделе «Внешний вид»."
 
-#: wp-includes/class-wp-customize-manager.php:1188
+#: wp-includes/class-wp-customize-manager.php:1211
 msgid "Static Front Page"
 msgstr "Статическая главная страница"
 
-#: wp-includes/class-wp-customize-manager.php:1191
+#: wp-includes/class-wp-customize-manager.php:1214
 msgid "Your theme supports a static front page."
 msgstr "Ваша тема поддерживает статическую главную страницу."
 
-#: wp-includes/class-wp-customize-manager.php:1202
+#: wp-includes/class-wp-customize-manager.php:1225
 msgid "Front page displays"
 msgstr "На главной странице отображать"
 
-#: wp-includes/class-wp-customize-manager.php:1206
+#: wp-includes/class-wp-customize-manager.php:1229
 msgid "Your latest posts"
 msgstr "Ваши последние записи"
 
-#: wp-includes/class-wp-customize-manager.php:1207
+#: wp-includes/class-wp-customize-manager.php:1230
 msgid "A static page"
 msgstr "Статическую страницу"
 
-#: wp-includes/class-wp-customize-manager.php:1218
+#: wp-includes/class-wp-customize-manager.php:1241
 msgid "Front page"
 msgstr "Главная страница"
 
-#: wp-includes/class-wp-customize-manager.php:1230
+#: wp-includes/class-wp-customize-manager.php:1253
 msgid "Posts page"
 msgstr "Страница записей"
 
@@ -2148,7 +2075,7 @@ msgstr ""
 #: wp-includes/class-wp-xmlrpc-server.php:1298
 #: wp-includes/class-wp-xmlrpc-server.php:1835
 #: wp-includes/class-wp-xmlrpc-server.php:1922
-#: wp-includes/class-wp-xmlrpc-server.php:1989 wp-includes/taxonomy.php:2771
+#: wp-includes/class-wp-xmlrpc-server.php:1989 wp-includes/taxonomy.php:2774
 msgid "Invalid term ID"
 msgstr "Неверный ID элемента"
 
@@ -2208,9 +2135,9 @@ msgstr "Извините, вам не разрешено редактирова�
 #: wp-includes/class-wp-xmlrpc-server.php:2029
 #: wp-includes/class-wp-xmlrpc-server.php:2117 wp-includes/taxonomy.php:585
 #: wp-includes/taxonomy.php:1304 wp-includes/taxonomy.php:1453
-#: wp-includes/taxonomy.php:1614 wp-includes/taxonomy.php:2581
-#: wp-includes/taxonomy.php:2756 wp-includes/taxonomy.php:2970
-#: wp-includes/taxonomy.php:3271
+#: wp-includes/taxonomy.php:1614 wp-includes/taxonomy.php:2584
+#: wp-includes/taxonomy.php:2759 wp-includes/taxonomy.php:2973
+#: wp-includes/taxonomy.php:3274
 msgid "Invalid taxonomy"
 msgstr "Неверная таксономия"
 
@@ -2228,8 +2155,8 @@ msgid "This taxonomy is not hierarchical."
 msgstr "Эта таксономия не поддерживает иерархию."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1756
-#: wp-includes/class-wp-xmlrpc-server.php:1855 wp-includes/taxonomy.php:2780
-#: wp-includes/taxonomy.php:3303
+#: wp-includes/class-wp-xmlrpc-server.php:1855 wp-includes/taxonomy.php:2783
+#: wp-includes/taxonomy.php:3306
 msgid "Parent term does not exist."
 msgstr "Родительского элемента не существует."
 
@@ -2799,7 +2726,7 @@ msgstr "Каждый день"
 
 #. translators: Date query invalid date message: 1: invalid value, 2: type of
 #. value, 3: minimum valid value, 4: maximum valid value
-#: wp-includes/date.php:391
+#: wp-includes/date.php:402
 msgid ""
 "Invalid value %1$s for %2$s. Expected value should be between %3$s and %4$s."
 msgstr ""
@@ -2807,7 +2734,7 @@ msgstr ""
 "и %4$s."
 
 #. translators: 1: year, 2: month, 3: day of month
-#: wp-includes/date.php:420
+#: wp-includes/date.php:432
 msgid ""
 "The following values do not describe a valid date: year %1$s, month %2$s, "
 "day %3$s."
@@ -2816,7 +2743,7 @@ msgstr ""
 "день %3$s."
 
 #. translators: 1: month, 2: day of month
-#: wp-includes/date.php:437
+#: wp-includes/date.php:449
 msgid ""
 "The following values do not describe a valid date: month %1$s, day %2$s."
 msgstr ""
@@ -3306,7 +3233,7 @@ msgstr[1] "%s года"
 msgstr[2] "%s лет"
 msgstr[3] "%s год"
 
-#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2678
+#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2691
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3766,50 +3693,50 @@ msgstr "%1$s %2$s Лента результатов поиска &laquo;%3$s&raq
 msgid "%1$s %2$s %3$s Feed"
 msgstr "%1$s %2$s Лента записей типа &laquo;%3$s&raquo;"
 
-#: wp-includes/general-template.php:2614
+#: wp-includes/general-template.php:2612
 msgid "&laquo; Previous"
 msgstr "&larr; Ранее"
 
-#: wp-includes/general-template.php:2615
+#: wp-includes/general-template.php:2613
 msgid "Next &raquo;"
 msgstr "Далее &rarr;"
 
-#: wp-includes/general-template.php:2752
+#: wp-includes/general-template.php:2765
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "По умолчанию"
 
-#: wp-includes/general-template.php:2762
+#: wp-includes/general-template.php:2775
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Светлая"
 
-#: wp-includes/general-template.php:2768
+#: wp-includes/general-template.php:2781
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Синяя"
 
-#: wp-includes/general-template.php:2774
+#: wp-includes/general-template.php:2787
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Полночь"
 
-#: wp-includes/general-template.php:2780
+#: wp-includes/general-template.php:2793
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Рассвет"
 
-#: wp-includes/general-template.php:2786
+#: wp-includes/general-template.php:2799
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Эктоплазма"
 
-#: wp-includes/general-template.php:2792
+#: wp-includes/general-template.php:2805
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Океан"
 
-#: wp-includes/general-template.php:2798
+#: wp-includes/general-template.php:2811
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Кофе"
@@ -3974,10 +3901,12 @@ msgid "Posts navigation"
 msgstr "Навигация по записям"
 
 #: wp-includes/link-template.php:2313
+msgctxt "previous post"
 msgid "Previous"
 msgstr "Назад"
 
-#: wp-includes/link-template.php:2314 wp-signup.php:453
+#: wp-includes/link-template.php:2314
+msgctxt "next post"
 msgid "Next"
 msgstr "Далее"
 
@@ -6799,46 +6728,46 @@ msgstr "Выбрать из часто используемых меток"
 msgid "No tags found."
 msgstr "Меток не найдено."
 
-#: wp-includes/taxonomy.php:1299 wp-includes/taxonomy.php:4025
+#: wp-includes/taxonomy.php:1299 wp-includes/taxonomy.php:4028
 msgid "Empty Term"
 msgstr "Пустой элемент"
 
-#: wp-includes/taxonomy.php:2774 wp-includes/taxonomy.php:3300
+#: wp-includes/taxonomy.php:2777 wp-includes/taxonomy.php:3303
 msgid "A name is required for this term"
 msgstr "Требуется название этого элемента"
 
-#: wp-includes/taxonomy.php:2832
+#: wp-includes/taxonomy.php:2835
 msgid "A term with the name and slug already exists with this parent."
 msgstr ""
 "Элемент с указанным именем и ярлыком уже существует у родительского элемента."
 
-#: wp-includes/taxonomy.php:2836
+#: wp-includes/taxonomy.php:2839
 msgid "A term with the name and slug already exists in this taxonomy."
 msgstr "Элемент с указанным именем и ярлыком уже существует в этой таксономии."
 
-#: wp-includes/taxonomy.php:2844
+#: wp-includes/taxonomy.php:2847
 msgid "Could not insert term into the database"
 msgstr "Не удалось вставить элемент в базу данных"
 
-#: wp-includes/taxonomy.php:3054
+#: wp-includes/taxonomy.php:3057
 msgid "Could not insert term relationship into the database"
 msgstr "Не удалось вставить связь элемента в базу данных"
 
-#: wp-includes/taxonomy.php:3107
+#: wp-includes/taxonomy.php:3110
 msgid "Invalid Taxonomy"
 msgstr "Неверная таксономия"
 
-#: wp-includes/taxonomy.php:3360
+#: wp-includes/taxonomy.php:3363
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "Ярлык &laquo;%s&raquo; уже используется другим элементом"
 
 #. translators: %s: taxonomy label, %l: list of terms formatted as per
 #. $term_template
-#: wp-includes/taxonomy.php:4157
+#: wp-includes/taxonomy.php:4160
 msgid "%s: %l."
 msgstr "%s: %l."
 
-#: wp-includes/taxonomy.php:4228
+#: wp-includes/taxonomy.php:4231
 msgid "Invalid object ID"
 msgstr "Неверный ID объекта"
 
@@ -7115,11 +7044,11 @@ msgstr ""
 "(Не удалось установить защищённое соединение с WordPress.org. Пожалуйста, "
 "свяжитесь с администратором сервера.)"
 
-#: wp-includes/update.php:549
+#: wp-includes/update.php:547
 msgid "%d WordPress Update"
 msgstr "%d обновление WordPress"
 
-#: wp-includes/update.php:551
+#: wp-includes/update.php:549
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d обновление плагина"
@@ -7127,7 +7056,7 @@ msgstr[1] "%d обновления плагинов"
 msgstr[2] "%d обновлений плагинов"
 msgstr[3] "%d обновление плагина"
 
-#: wp-includes/update.php:553
+#: wp-includes/update.php:551
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d обновление темы"
@@ -7135,7 +7064,7 @@ msgstr[1] "%d обновления тем"
 msgstr[2] "%d обновлений тем"
 msgstr[3] "%d обновление темы"
 
-#: wp-includes/update.php:555
+#: wp-includes/update.php:553
 msgid "Translation Updates"
 msgstr "Обновления переводов"
 
@@ -7266,7 +7195,7 @@ msgstr "Боковая колонка %d"
 msgid "Sidebar"
 msgstr "Боковая колонка"
 
-#: wp-includes/wp-db.php:1022
+#: wp-includes/wp-db.php:987
 msgid ""
 "<h1>Can&#8217;t select database</h1>\n"
 "<p>We were able to connect to the database server (which means your username "
@@ -7300,25 +7229,25 @@ msgstr ""
 "удалось решить &#8212; возможно, вам помогут на <a href=\"https://ru.forums."
 "wordpress.org/\">форуме поддержки WordPress</a>.</p>"
 
-#: wp-includes/wp-db.php:1077
+#: wp-includes/wp-db.php:1042
 msgid "%s must set a database connection for use with escaping."
 msgstr "Класс %s должен указать соединение, используемое для экранирования."
 
-#: wp-includes/wp-db.php:1193
+#: wp-includes/wp-db.php:1158
 msgid "The query argument of %s must have a placeholder."
 msgstr "Аргумент запроса метода %s должен содержать описатель преобразований."
 
-#: wp-includes/wp-db.php:1262
+#: wp-includes/wp-db.php:1227
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
 msgstr ""
 "База данных WordPress возвратила ошибку %1$s в ответ на запрос %2$s, "
 "выполненный %3$s"
 
-#: wp-includes/wp-db.php:1264
+#: wp-includes/wp-db.php:1229
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "База данных WordPress возвратила ошибку %1$s в ответ на запрос %2$s"
 
-#: wp-includes/wp-db.php:1466
+#: wp-includes/wp-db.php:1431
 msgid ""
 "\n"
 "<h1>Error establishing a database connection</h1>\n"
@@ -7350,7 +7279,7 @@ msgstr ""
 "&#8212; всегда можно посетить <a href='https://ru.forums.wordpress."
 "org/'>форум поддержки WordPress</a>.</p>\n"
 
-#: wp-includes/wp-db.php:2714
+#: wp-includes/wp-db.php:2100
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>ОШИБКА</strong>: WordPress %1$s требует MySQL %2$s или выше"
 
@@ -7740,6 +7669,10 @@ msgstr "Дайте мне сайт!"
 #: wp-signup.php:449
 msgid "Just a username, please."
 msgstr "Только имя пользователя, пожалуйста."
+
+#: wp-signup.php:453
+msgid "Next"
+msgstr "Далее"
 
 #: wp-signup.php:498
 msgid "%s is your new username"

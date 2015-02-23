@@ -29,13 +29,13 @@
                 </video>
                 <div class="controls">
                     <div class="center_logo"></div>
-                    <div class="sound s_t" onclick="mute_head_video()">ЗВУК ВКЛ</div>
+                    <div class="sound s_t" onclick="mute_head_video(this)">ЗВУК ВКЛ</div>
                     <div class="scroll s_t" onclick="scrollTopage_start()">ЛИСТАЙ НИЖЕ!</div>
                 </div>
             </div>
         </div>
         <?php } ?>
-            <div class="row bg_color">
+            <div class="row bg_color"  id="main-menu">
                 <div class="col-xs-5 acenter">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Анжрей Пределин" class="logo">
                 </div>
@@ -48,4 +48,6 @@
 
 
     </header>
-
+	<div id="page_start"></div>
+	<div class="row">
+        <div class="col-xs-12 content">
