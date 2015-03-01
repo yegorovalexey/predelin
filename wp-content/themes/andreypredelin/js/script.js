@@ -39,6 +39,12 @@ $(document).ready(function() {
     feed.run();
 
     $("#main-menu").sticky({topSpacing:0});
+    if( $(".play_button").length > 0 && $('#video_on_video_page').length > 0){
+        $(".play_button").on("click",function(){
+            $('#video_on_video_page').get(0).play();
+            $('.controls').hide();
+        });
+    }
 });
 
 

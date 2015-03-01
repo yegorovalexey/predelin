@@ -86,7 +86,7 @@ function gen_view_gallery($id){
     $gallery = get_post_gallery( $id, false );
     $galleryIDs = explode(',', $gallery['ids']);
     $gallery['captions'] = array();
-    echo '<div class="row gallery">';
+    echo '<div class="row gallery" id="gallery_'.$id.'">';
     $num = 0;
     foreach( $galleryIDs as $imageID ) {
         $img = get_post($imageID);
